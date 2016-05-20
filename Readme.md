@@ -1,4 +1,9 @@
-# Bork [![](https://travis-ci.org/mattly/bork.svg)](https://travis-ci.org/mattly/bork)
+# Bork [![travis][travis-image]][travis-url] [![irc][irc-image]][irc-url]
+
+[travis-image]: https://travis-ci.org/mattly/bork.svg
+[travis-url]: https://travis-ci.org/mattly/bork
+[irc-image]: https://www.irccloud.com/invite-svg?channel=%23bork.sh&amp;hostname=irc.freenode.net&amp;port=6697&amp;ssl=1
+[irc-url]: https://www.irccloud.com/invite?channel=%23bork.sh&hostname=irc.freenode.net&port=6697&ssl=1
 
 Bork puts the 'sh' back into IT. [Bork Bork Bork](https://www.youtube.com/results?search_query=swedish+chef).
 
@@ -314,6 +319,14 @@ There are four functions to help you take further actions on change:
 4. Leave Dependency Management to the user. Is a needed binary not installed for
    a type? Return `$STATUS_FAILED_PRECONDITION` in your status check. Let the
    user decide the best way to satisfy any dependencies.
+
+### IRC
+
+Feel free to join us:
+
+- Hostname: irc.freenode.org
+- Channel: #bork.sh
+- [Link to web client](http://webchat.freenode.net/?channels=%23bork.sh&uio=d4)
 
 ## Requirements / Dependencies
 
